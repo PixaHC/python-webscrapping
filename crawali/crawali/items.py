@@ -11,4 +11,10 @@ import scrapy
 class CrawaliItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+	
+    item_product_title = scrapy.Field()
+    item_product_price = scrapy.Field()
+    item_product_stars = scrapy.Field()
+
+    
+
